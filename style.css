@@ -1,0 +1,278 @@
+/*---------GLOBAL---------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1,
+h2 {
+    /*INDSÆT SKRIFTTYPE TIL H1*/
+    margin: 10px 0px;
+}
+
+
+header {
+    background: #b5bcb5;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 17px;
+    width: 140px;
+}
+
+
+/*---NAV---*/
+
+.menu {
+    overflow: hidden;
+    background-color: #b5bcb5;
+    bottom: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    position: fixed;
+}
+
+.menu li a:hover {
+    background-color: #707f70;
+}
+
+.menu a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    font-size: 16px;
+}
+
+/*---NAV slut---*/
+
+/*Container rykkes ned pga. fixed menu*/
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.billede {
+    width: 100%;
+}
+
+
+
+#horisontalbar {
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 6%;
+    display: block;
+}
+
+
+.billedecom {
+    width: 100%;
+}
+
+#bar {
+    width: 98%;
+    margin-left: 1%;
+    display: none;
+
+}
+
+.overskrift {
+
+    font-size: 23px;
+    margin-top: 3%;
+    color: #5b695b;
+    margin-left: 5%;
+}
+
+.tekst {
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 19px;
+    color: #5b695b;
+    margin-top: 3%;
+
+}
+
+/*----PRAKTISK----*/
+
+.visum {
+    width: 100%;
+}
+
+.klima {
+    width: 100%;
+}
+
+.valuta {
+    width: 100%;
+}
+
+.mobil {
+    width: 100%;
+}
+
+.maden {
+    width: 100%;
+}
+
+.tiden {
+    width: 100%;
+}
+
+/*----KONTAKT----*/
+
+#kontakth1 {
+    margin-top: 130px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    color: #596559;
+
+
+}
+
+#kontaktinfo {
+    text-align: center;
+    color: #707f70;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 19px;
+    color: #596559;
+}
+
+#bank {
+    text-align: center;
+    color: #707f70;
+}
+
+
+
+
+/*---------DESKTOP--------*/
+
+@media (min-width: 1024px) {
+
+
+    .overskrift {
+
+        font-size: 25px;
+        margin-top: 1%;
+        color: #5b695b;
+        margin-left: 5%;
+        
+    }
+    .tekst {
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+        font-family: Dosis;
+        color: #5b695b;
+
+    }
+
+    #horisontalbar {
+        display: none;
+    }
+
+    #bar {
+        width: 98%;
+        margin-left: 1%;
+        display: block;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    .billedecom {
+        width: 100%;
+    }
+
+    .visum {
+        width: 50%;
+
+    }
+    .klima {
+        width: 50%;
+        float: right;
+    }
+
+    .valuta {
+        width: 50%;
+
+    }
+
+    .mobil {
+        width: 50%;
+        float: right;
+    }
+
+    .maden {
+        width: 50%;
+        margin-bottom: 4%;
+    }
+
+    .tiden {
+        width: 50%;
+        float: right;
+        margin-bottom: 4%;
+    }
+
+}
+
+/*---kontakt----*/ 
+
+#kontakth1 {
+    margin-top: 170px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    color: #596559;
+
+
+}
+
+#kontaktinfo {
+    text-align: center;
+    color: #707f70;
+    font-size: 17px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+    color: #596559;
+}
+
+#bank {
+    text-align: center;
+    color: #707f70;
+    font-size: 17px;
+}
